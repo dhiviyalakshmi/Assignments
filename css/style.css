@@ -1,0 +1,242 @@
+/*  Heading of the website */
+   header h1
+{
+	background:url(../img/logo1.png) no-repeat;
+	text-indent:-9999px;
+	width:131px;
+	height:120px;
+}
+
+/*  header  */
+header
+{
+	overflow:hidden;
+	width:100%;
+	position:fixed;
+	top:0;
+	background:#b8b894;
+	height:115px;
+}
+
+/*  Name of the website */
+.name
+{
+	font-size:40px; 
+	text-shadow:5px 10px 10px yellow;
+	color:#cc0066;
+	font-family: 'Shrikhand', cursive;
+}
+
+/* Body */
+body
+{
+	background:#ffcccc;
+}
+
+/* Primary Section */
+.primary h3
+{
+	font-family: 'Shrikhand', cursive;
+	color:green;
+	font-size:30px;
+
+}
+
+.primary1
+{
+		font-family: 'Ruslan Display', cursive;
+		font-size: 20px;
+}
+
+/* Primary Section anchor tag*/
+.primary a
+{
+font-family: 'Niconne', cursive;
+font-size: 35px;
+}
+
+
+/* section */
+.img1
+{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top:20px;
+	width:300px;
+	font-size:20px;
+	font-family: 'Lora', serif;
+	height:700px;	
+}
+
+/* Navigation List */
+nav li
+{
+	display:inline;
+	font-size:30px;
+	font-family: 'Niconne', cursive;
+}
+
+
+/* Navigation Menu */
+.nav_menu
+{
+	float:right;
+	margin:10px 20px 0 30px;
+}
+
+/* Navigation Anchor tag */
+nav a
+{
+	text-decoration:none;
+	padding-right:20px;
+
+}
+
+/*Anchor hover*/
+a:hover
+{
+	color:red;
+	font-size:30px;
+}
+
+/*Hero image*/
+.hero img
+{
+	width:100%;
+	height:50%;
+	margin-top:106px;
+}
+.language img
+{
+width:400px;
+	height:550px;
+}
+
+
+/* Horizontal Line*/
+hr {
+    margin: 20px 0;
+    border: 1px solid #f00;
+}
+
+/* Footer */
+.footer
+{
+	background:#212730;
+}
+
+/* Float-Left */
+.float_left
+{
+	float:left;
+}
+
+/* Center-Margin */
+.center_margin
+{
+	margin-left: 15%;
+}
+
+/* Left-Margin */
+.left_margin
+{
+	margin-left: 20%;
+}
+
+/* Right-Margin */
+.right_margin
+{
+	margin-right: 20%;
+}
+
+
+/* Float-right */
+.float_right
+{
+	float: right;
+}
+
+
+/*  Inline */
+.inline
+{
+	display: inline;
+}
+
+/* Copyrights section */
+.copyrights
+{
+	margin:10px 10px 0 10px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+
+}
+
+/*Icons of Social media sites */
+.icon_colour
+{
+	font-size: 20px;
+	color:white;
+}
+
+/* Secondary Section*/
+.secondary
+{
+	margin-top:100px;	
+}
+
+/* Secondary Header*/
+.secondary_header
+{
+	margin-top:180px;
+	text-align: center;
+	font-size:40px;
+	font-family: 'Shrikhand', cursive;
+
+}
+.secondary h1
+{
+		font-size:30px;
+	font-family: 'Shrikhand', cursive;
+}
+
+/* Buttons Style */
+.back_button,.next_button{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Shrikhand', cursive;
+
+  
+}
+
+.back_button
+{
+	float:left;
+	margin-left:600px;
+}
+.next_button
+{
+	float:right;
+	margin-right:600px;
+}
+.secondary_button
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.secondary_button a
+{
+text-decoration: none;
+}
