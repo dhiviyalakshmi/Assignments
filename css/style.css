@@ -44,6 +44,7 @@ body
 
 .primary1
 {
+	margin-top: 10px;
 		font-family: 'Ruslan Display', cursive;
 		font-size: 20px;
 }
@@ -109,9 +110,10 @@ a:hover
 	margin-top:106px;
 }
 .language img
-{
+{	
+	margin-top: 10px;
 width:400px;
-	height:550px;
+	height:580px;
 }
 
 
@@ -125,6 +127,7 @@ hr {
 .footer
 {
 	background:#212730;
+
 }
 
 /* Float-Left */
@@ -132,25 +135,6 @@ hr {
 {
 	float:left;
 }
-
-/* Center-Margin */
-.center_margin
-{
-	margin-left: 15%;
-}
-
-/* Left-Margin */
-.left_margin
-{
-	margin-left: 20%;
-}
-
-/* Right-Margin */
-.right_margin
-{
-	margin-right: 20%;
-}
-
 
 /* Float-right */
 .float_right
@@ -168,7 +152,7 @@ hr {
 /* Copyrights section */
 .copyrights
 {
-	margin:10px 10px 0 10px;
+	margin:5px 10px 0 550px;
 	font-size: 20px;
 	color: white;
 	text-align: center;
@@ -239,4 +223,9 @@ hr {
 .secondary_button a
 {
 text-decoration: none;
+}
+
+.inline-block
+{
+	display: inline-block;
 }
