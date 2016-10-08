@@ -58,7 +58,7 @@ font-size: 35px;
 
 
 /* section */
-.img1
+.three_grid_section 
 {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -109,7 +109,7 @@ a:hover
 	height:50%;
 	margin-top:106px;
 }
-.language img
+.single_grid_image img
 {	
 	margin-top: 10px;
 width:400px;
@@ -124,7 +124,7 @@ hr {
 }
 
 /* Footer */
-.footer
+footer
 {
 	background:#212730;
 
@@ -200,6 +200,7 @@ hr {
     font-weight: bold;
     margin-top: 15px;
     font-family: 'Shrikhand', cursive;
+    border-radius: 20px;
 
   
 }
