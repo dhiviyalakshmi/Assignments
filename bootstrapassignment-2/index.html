@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Sun-Hotels</title>
+		<meta name="description">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Bree+Serif|Bungee+Inline|Lobster|Pacifico|Ruslan+Display|Trirong" rel="stylesheet">
+		
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+			
+		<div class="container " id="main">
+			<div class="navbar navbar-fixed-top navbar-inverse">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>	
+					<a class="navbar-brand" href="/"><img src="images/logo3.png" alt="Logo was loaded"/></a>
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="aboutus.html">About Us</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Rooms <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#rooms">Ocean view</a>
+									</li>
+									
+									<li>
+										<a href="#rooms">Large Room with one bedroom</a>
+									</li>
+									
+									<li>
+										<a href="#rooms">Spacious Family room</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							</li> <!-- end of class dropdown-->
+
+							<li>
+								<a href="#activities">Activities</a>
+							</li>
+							<li>
+								<a href="#contactus">Contact Us</a>
+							</li>
+						</ul> <!-- end of nav-->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li><a href="#"><span class="glyphicon glyphicon-user"> SignUp</span></a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-log-in"> Login</span></a></li>	
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+
+			<div class="carousel slide" id="myCarousel" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>The story begins here</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Small enough to listen.Big enough to serve</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Happiness is sun, sand and a drink in my hand</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				
+
+					<div class="item" id="slide4">
+						<div class="carousel-caption">
+							<h4>Beach Saying: Out of Office</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+
+			</div><!-- end myCarousel -->
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call us for booking</a>
+					</div><!-- end well-small -->		
+
+					<div class="well">
+						<div class="page-header">
+							<h1><i>Welcome To The Sun Palace Hotel </i><small>Hello Vacation!!!</small></h1>
+						</div><!-- end page-header -->
+						<p class="lead">Your vacation begins with us!  Relax by the pool, spend a day at the beach or pamper yourself in our luxurious spa. Whatever you look for in a vacation you will find it here.</p>
+						<a href="#myModal" role="button" class="btn btn-warning btn-large btn-block hidden-sm hidden-xs" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Avail discount?? SignUp Soon..</a>
+
+						<!-- visible only for small devices-->
+						<a href="#myModal" role="button" class="btn btn-warning  btn-large btn-block visible-sm" data-toggle="modal" style="font-size:15px";><span class="glyphicon glyphicon-hand-up"></span>Avail discount?? SignUp Soon..</a> 
+
+
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sun-Hotel SignUP</h4>
+									</div><!-- end modal-header -->
+									<div class="modal-body">
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputName">Name</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputName" placeholder="Name" type="text">
+												</div>
+											</div>
+												
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+												</div>
+											</div>
+												
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="password">Password</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="password" placeholder="Password" type="password">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="confirmpassword">Confirm Password</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="confirmpassword" placeholder="Confirm Password" type="password">
+												</div>
+											</div>
+										</form>
+									</div><!-- end modal-body -->
+										
+									<div class="modal-footer">
+										<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+									</div><!-- end modal-footer -->
+								</div><!-- end modal-content -->
+							</div><!-- end modal-dialog -->
+						</div><!-- end myModal -->
+					</div><!-- end well -->
+				</div><!-- end col-12 -->
+			</div><!-- end row -->
+
+			<div class="row " id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<img src="images/room.png" alt="image not loaded" class="img-circle img-responsive" style="border: 3px solid #0040ff">
+						<div class="panel-heading">
+							<h3 class="panel-title">About Us</h3>
+						</div><!-- end panel-heading -->
+						<p>Sun-Hotels is a leading group of five star hotels which strives to serve both business and leisure travelers. 
+					The Mumbai property is the flagship hotel of the Sun-n-Sand group and was commissioned in 1962.</p>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature ">
+					<div class="panel">
+						<img src="images/hotel.png" alt="image not loaded" class="img-circle img-responsive" style="border: 3px solid #0040ff">
+						<div class="panel-heading">
+							<h3 class="panel-title">Rooms</h3>
+						</div><!-- end panel-heading -->
+						<p>Our Ocean Deluxe rooms allow  our pristine beach and the clear blue seas of the Arabian Gulf from the floor to ceiling windows.Enjoy 50 square metres of space and decor that evokes the elements of nature. 
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+		
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<img src="images/massage.jpg" alt="image not loaded" class="img-circle img-responsive" style="border: 3px solid #0040ff">
+						<div class="panel-heading">
+							<h3 class="panel-title">Our services</h3>
+						</div><!-- end panel-heading -->
+						<p> Pamper yourself in our full service spa,we have a full range of treatments to suit all tastes.<br>Or maybe a round of golf on our championship course is more to your liking?</p>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				<!--<a href="#" target="_blank" class="btn btn-warning btn-block">TO KNOW US MORE</a>-->
+			</div><!-- end features -->
+				
+			<div class="row" id="more_info">
+				<div class="col-sm-6">	
+					<h2> Our Location Info </h2>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Branch 1</a></li>
+							<li><a href="#tab2" data-toggle="tab">Branch 2</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>Enjoy your vacation here!!! <br> Sun-Hotels ,Pune</small></h4>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2897395548234!2d55.32163731509463!3d25.260836983866614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5cd0223728ed%3A0xdfd6443a609970f3!2sSun+%26+Sands+Hotel!5e0!3m2!1sen!2sin!4v1476291049508" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<p>
+								Sun-Hotels, situated in the heart of the city, offers easy access to the key business areas and tourist attractions.<br>
+								Reservations: +91-20-2616 7777<br>
+								reservations@sunnsandpune.com<br>
+								Sun-Hotels Pune, 262, Bund Garden Road<br>
+								Pune - 411 001, India Contact us</p>
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<h4>Sun-Hotels <small>Mumbai</small></h4>
+								
+								<img src="images/massage.jpg" class="thumbnail pull-left" alt="Placeholder image">
+								
+								<p>This modern hotel, set on Juhu Beach overlooking the Arabian Sea, lies a 10-minute walk from ISKCON Juhu, a renowned Hindu temple, and a kilometre from Juhu Beach Ferry Wharf. 
+									<br>
+								<strong>	Address: 39, Juhu Beach, Mumbai, Maharashtra 400049		
+									Phone: 022 6693 8888</strong>
+								</p>	
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div> <!-- end of col-6-->
+
+				<div class="col-sm-6" id="rooms">
+					<h2> Rooms </h2>
+					<div class="list-group text-center">
+						<a href="#" class="list-group-item">
+							<h3 class="list-group-item-heading"> Ocean View </h3>
+							<img src="images/ocean.jpg" alt="image not loaded" class="img-responsive img-rounded" >
+						</a>
+						<a href="#" class="list-group-item">
+							<h3 class="list-group-item-heading"> Large Room with Bedroom</h3>
+							<img src="images/room_with_bedroom.jpg" alt="image not loaded" class="img-responsive img-rounded">
+							<br>
+							<button class="btn btn-large btn-link pull-right" style="font-family: 'Bungee Inline', cursive;"><i>To View More Rooms</i></button>
+						</a>
+					</div> <!-- end of list group-->
+				</div> <!-- end of col-6 -->
+			</div> <!--end of more info-->
+			
+			
+			<div class="row text-center" id="activities">
+				<h2> Activities </h2>
+				<div class="col-sm-4 ">
+				  <a href="#myactivities"  data-toggle="modal">	<img src="images/act1.jpg" alt="image not loaded" class="img-responsive img-circle act"></a>
+				  	<h3> Spa </h3>
+				 </div>
+
+				 <div class="col-sm-4 ">
+				   <a href="#myactivities"  data-toggle="modal">	<img src="images/act2.jpg" alt="image not loaded" class="img-responsive img-circle act"></a>
+				   	<h3> Pool </h3>
+				 </div>
+
+				 <div class="col-sm-4 ">
+				   <a href="#myactivities"  data-toggle="modal">	<img src="images/act3.jpg" alt="image not loaded" class="img-responsive img-circle act"></a>
+				   	<h3> Biking </h3>
+				  </div>
+			</div><!-- end  activities -->
+
+			<div class="row text-center" id="activities2">
+			 	<div class="col-sm-4 ">
+				  	<a href="#myactivities"  data-toggle="modal"><img src="images/act4.jpg" alt="image not loaded" class="img-responsive img-circle act"></a>
+				  	<h3> Snorkeling</h3>
+				</div>
+
+				 <div class="col-sm-4 ">
+				   <a href="#myactivities"  data-toggle="modal">	<img src="images/act5.jpg" alt="image not loaded" class="img-responsive img-circle act"></a>
+				   	<h3>Water Games </h3>
+				 </div>
+
+				 <div class="col-sm-4">
+				   <a href="#myactivities"  data-toggle="modal">	<img src="images/act6.jpg" alt="image not loaded" class="img-responsive img-circle  act"></a>
+				   	<h3> Restaurant </h3>
+				 </div>
+			</div><!-- end  activities2 -->
+
+			<div class="modal fade" id="myactivities">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Our Gallery</h4>
+									</div><!-- end modal-header -->
+									<div class="modal-body">
+										<img src="images/mygallery.gif" alt="image not loaded">
+										<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+
+									</div><!-- end modal-body -->
+								</div>
+							</div>
+					</div>
+		</div><!-- end container -->
+	<footer id="contactus">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h5><i>2016 &copy; All Rights Reserved </i></h5>
+				</div><!-- end col-sm-4 -->
+				<div class="col-sm-6">
+					<h5><i>4917 Rustic Pre   Loco Hills, Kansas    |    Tel (888) 888-8888    |      sunhotels@hotmail.com</i></h5>
+				</div><!-- end col-sm-6 -->
+				<div class="col-sm-2">
+					<h5><i>Follow Us On</i></h5>
+					<ul class="list-inline">
+						<li><a href="http://www.facebook.com" data-toggle="tooltip" data-placement="top" title="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+						<li><a href="http://www.twitter.com" data-toggle="tooltip" data-placement="top" title="twitter"> <i class="fa fa-twitter" aria-hidden="true"> </i></a></li>
+						<li><a href="http://www.google.com" data-toggle="tooltip" data-placement="top" title="Google"> <i class="fa fa-google" aria-hidden="true"></i></a></li>
+						<li><a href="http://www.rff.com" data-toggle="tooltip" data-placement="top" title="rff"> <i class="fa fa-rss" aria-hidden="true"></i></a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+			</div><!-- end row -->
+		</div><!-- end container -->	
+	</footer> <!-- end of footer -->
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
