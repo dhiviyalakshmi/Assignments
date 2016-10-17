@@ -7,94 +7,6 @@ Author:  Dhiviyalakshmi
 Updated: October 2016
 */
 
-
-/* Layout */
-
-#features
-{
-  margin-top: 20px;
-  text-align: center;
-  font-family: 'Bree Serif', serif;
-  font-size: 20px;
-
-}
-
-
-.feature:hover
-{
-  border:5px solid #0040ff;
-  
-}
-
-.act:hover{
-  border-radius: 50%;
-  border:solid #0040ff;
-}
-
-.panel-heading
-{
-  margin-top: 10px;
-}
- 
- footer
- {
-  background: #333;
-  color:#eee;
-  font-size: 20px;
-  padding:10px;
- 
-
- }
-
-/*  Navbar */
-   
-   .navbar-brand
-   {
-      padding: 0px 2px;
-   }
-
-   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
-  }
-   
-/* Carousel */
-
-   #myCarousel
-   {
-      margin-top: 60px;
-   }
-   #myCarousel .item
-   {
-      height:400px;
-   }
-
-   .carousel-caption h4
-   {
-      font-size: 40px;
-      color:red;
-     font-family: 'Pacifico', cursive;
-   }
-   #slide1
-   {
-      background:url('../../images/hotelslide3m.png') top center no-repeat;
-   }
-
-   #slide2
-   {
-      background: url('../../images/hotelslide2m.png') top center no-repeat;
-   }
-
-   #slide3
-   {
-       background: url('../../images/hotelslide1m.png') top center no-repeat;
-   }
-
-    #slide4
-   {
-       background: url('../../images/hotelslide4m.png') top center no-repeat;
-   }
-
 /*  Global Styles */
 
   .well p ,.well a,.navbar a,#more_info li{
@@ -171,6 +83,87 @@ body
   color:   #990033;
 }
 
+
+/* Layout */
+
+#features
+{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+
+}
+
+
+.feature:hover
+{
+  border:5px solid #0040ff;
+  
+}
+
+.act:hover{
+  border-radius: 50%;
+  border:solid #0040ff;
+}
+
+.panel-heading
+{
+  margin-top: 10px;
+}
+ 
+ 
+
+/*  Navbar */
+   
+   .navbar-brand
+   {
+      padding: 0px 2px;
+   }
+
+   .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+   
+/* Carousel */
+
+   #myCarousel
+   {
+      margin-top: 60px;
+   }
+   #myCarousel .item
+   {
+      height:400px;
+   }
+
+   .carousel-caption h4
+   {
+      font-size: 40px;
+      color:red;
+     font-family: 'Pacifico', cursive;
+   }
+   #slide1
+   {
+      background:url('../../images/hotelslide3m.png') top center no-repeat;
+   }
+
+   #slide2
+   {
+      background: url('../../images/hotelslide2m.png') top center no-repeat;
+   }
+
+   #slide3
+   {
+       background: url('../../images/hotelslide1m.png') top center no-repeat;
+   }
+
+    #slide4
+   {
+       background: url('../../images/hotelslide4m.png') top center no-repeat;
+   }
+
+
 /* Media Queries  */
 
 /* Portrait & landscape phone */
@@ -218,6 +211,17 @@ body
    }
 
 }
+
+/*footer*/
+footer
+ {
+  background: #333;
+  color:#eee;
+  font-size: 20px;
+  padding:10px;
+ 
+
+ }
 
 /* Large desktop */
 @media (min-width: 1200px) {
