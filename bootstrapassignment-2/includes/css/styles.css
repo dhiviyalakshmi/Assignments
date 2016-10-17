@@ -8,9 +8,7 @@ Updated: October 2016
 */
 
 
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
+/* Layout */
 
 #features
 {
@@ -48,24 +46,20 @@ Updated: October 2016
 
  }
 
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
+/*  Navbar */
    
    .navbar-brand
    {
       padding: 0px 2px;
    }
+
+   .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
    
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
+/* Carousel */
+
    #myCarousel
    {
       margin-top: 60px;
@@ -83,7 +77,7 @@ Updated: October 2016
    }
    #slide1
    {
-      background: url('../../images/hotelslide3m.png') top center no-repeat;
+      background:url('../../images/hotelslide3m.png') top center no-repeat;
    }
 
    #slide2
@@ -101,9 +95,8 @@ Updated: October 2016
        background: url('../../images/hotelslide4m.png') top center no-repeat;
    }
 
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
+/*  Global Styles */
+
   .well p ,.well a,.navbar a,#more_info li{
     font-family: 'Trirong', serif;
   }  
@@ -135,6 +128,13 @@ body
 {
   background-color: #ccddff; 
 
+}
+#features img{
+  margin:auto;
+}
+
+#rooms img{
+  margin:auto;
 }
 
 .thumbnail
@@ -171,9 +171,7 @@ body
   color:   #990033;
 }
 
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
+/* Media Queries  */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
